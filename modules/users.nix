@@ -9,6 +9,6 @@
     isNormalUser = true;
     uid = 1000;
     shell = pkgs.fish;
-    extraGroups = [ "wheel" "networkmanager" "video" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "networkmanager" "video" "netdev" "lp" "scanner"]; # Enable ‘sudo’ for the user.
   };  
 }

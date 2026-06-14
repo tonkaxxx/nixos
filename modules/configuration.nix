@@ -1,8 +1,8 @@
 # Edit this configuration file to define what should be installed on
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
-
-{ config, lib, pkgs, ... }:
+  
+{ config, lib, pkgs, stable-pkgs, ... }:
 
 {
   imports =
@@ -13,7 +13,7 @@
       ./build-res-limits.nix 
       ./x11.nix
       ./users.nix
-      
+      ./happ-nixos/happ-module.nix 
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
@@ -46,20 +46,33 @@
   };  
 
   # Enable CUPS to print documents.
-  services.printing.enable = true;
+  services.printing = {
+    enable = true;
+    drivers = [ pkgs.samsung-unified-linux-driver ];
+  };
+  # enable printer scanner
+  hardware.sane = {
+    enable = true;
+    extraBackends = [ pkgs.samsung-unified-linux-driver ];
+  };
 
   services.pipewire = {
     enable = true;
     pulse.enable = true;
   };
 
+  programs.throne = {
+    enable = true;
+    tunMode.enable = true; 
+  };
+
   programs.fish.enable = true;
   programs.firefox.enable = true;
   services.envfs.enable = true; # for /bin/bash
   programs.steam.enable = true;
-  #services.v2raya.enable = true;
-  programs.throne.enable = true;
-  programs.throne.tunMode.enable = true;
+  # programs.happ.enable = true;
+  # services.throne.enable = true;
+  # programs.throne.tunMode.enable = true;
   programs.dconf.enable = true; # so apps can see dark theme
 
   # List packages installed in system profile.
@@ -88,6 +101,7 @@
     obfs4
     wineWow64Packages.unstable
     winetricks
+    ghostscript # for pdf dpwnscaling
 
     kubectl
     helm
@@ -97,26 +111,27 @@
     python312Packages.flask
 
     firefox
+    chromium
     flameshot
     kitty
-    telegram-desktop
+    stable-pkgs.telegram-desktop
     obsidian
     easyeffects
     pavucontrol
     vscode    
-    throne  
+    # throne  
     thunar
     copyq
     rnote
     discord
     vesktop
     obs-studio
-    libreoffice
+    stable-pkgs.libreoffice
     alacritty
     tor-browser
     thunar
     mpv
-    qbittorrent
+    stable-pkgs.qbittorrent
     tetris
 
     bspwm
