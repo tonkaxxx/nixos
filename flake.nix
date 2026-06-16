@@ -24,7 +24,7 @@
         {
           services.zapret-discord-youtube = {
             enable = true;
-            config = "general(ALT)";
+            configName = "general(ALT)";
             gameFilter = "all";
             listGeneral = [ "example.com" "test.org" "mysite.net" ];
             listExclude = [ "ubisoft.com" "origin.com" ];
