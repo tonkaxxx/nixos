@@ -109,6 +109,7 @@
     python3
     python3Packages.pip
     python312Packages.flask
+    python312Packages.tkinter
 
     firefox
     chromium
