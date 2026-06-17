@@ -28,7 +28,7 @@
     efiSupport = true;
     efiInstallAsRemovable = false; 
     device = "nodev";    
-    useOSProber = false;
+    useOSProber = true;
   };
 
   networking.hostName = "nixos"; # Define your hostname.
@@ -127,7 +127,7 @@
     discord
     vesktop
     obs-studio
-    stable-pkgs.libreoffice
+    libreoffice
     alacritty
     tor-browser
     thunar
