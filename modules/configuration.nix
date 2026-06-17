@@ -28,7 +28,7 @@
     efiSupport = true;
     efiInstallAsRemovable = false; 
     device = "nodev";    
-    useOSProber = true;
+    useOSProber = false;
   };
 
   networking.hostName = "nixos"; # Define your hostname.
