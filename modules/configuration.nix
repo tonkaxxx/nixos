@@ -70,10 +70,8 @@
   programs.firefox.enable = true;
   services.envfs.enable = true; # for /bin/bash
   programs.steam.enable = true;
-  # programs.happ.enable = true;
-  # services.throne.enable = true;
-  # programs.throne.tunMode.enable = true;
   programs.dconf.enable = true; # so apps can see dark theme
+  virtualisation.docker.enable = true;
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
