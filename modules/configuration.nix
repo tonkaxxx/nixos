@@ -72,6 +72,7 @@
   programs.steam.enable = true;
   programs.dconf.enable = true; # so apps can see dark theme
   virtualisation.docker.enable = true;
+  virtualisation.docker.extraOptions = "--dns 77.88.8.8 --dns 1.1.1.1";
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
@@ -82,7 +83,8 @@
     vim
     micro
     bat
-    duf   
+    duf
+    dust   
     bash
     tree
     radeontop
