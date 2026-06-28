@@ -65,7 +65,7 @@
     enable = true;
     tunMode.enable = true; 
   };
-
+  services.happ.enable = true;
   programs.fish.enable = true;
   programs.firefox.enable = true;
   services.envfs.enable = true; # for /bin/bash
@@ -182,6 +182,7 @@
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
+  networking.firewall.checkReversePath = "loose"; # for ds with vpn
   # networking.firewall.enable = false;
 
   # Copy the NixOS configuration file and link it from the resulting system
