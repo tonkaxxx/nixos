@@ -102,7 +102,7 @@
     wineWow64Packages.unstable
     winetricks
     ghostscript # for pdf dpwnscaling
-    zip
+    unzip
 
     kubectl
     helm
