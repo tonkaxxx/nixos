@@ -44,6 +44,9 @@
     LC_TIME = "ru_RU.UTF-8";
     LC_MONETARY = "ru_RU.UTF-8";
   };  
+  
+  # включает поддержку запуска сторонних скомпилированных бинарников, скачанных не из nixpkgs
+  programs.nix-ld.enable = true;
 
   # Enable CUPS to print documents.
   services.printing = {
