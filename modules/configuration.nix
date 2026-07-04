@@ -114,6 +114,8 @@
     python3Packages.pip
     python312Packages.flask
     python312Packages.tkinter
+    python312Packages.pandas
+    python312Packages.numpy
     nodejs
 
     firefox
