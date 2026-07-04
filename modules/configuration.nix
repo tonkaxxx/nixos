@@ -114,7 +114,6 @@
     python3Packages.pip
     python312Packages.flask
     python312Packages.tkinter
-    python312Packages.apify-client
     nodejs
 
     firefox
