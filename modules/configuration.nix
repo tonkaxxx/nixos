@@ -106,6 +106,7 @@
     winetricks
     ghostscript # for pdf dpwnscaling
     unzip
+    bubblewrap # for codex
 
     kubectl
     helm
