@@ -118,6 +118,7 @@
     python312Packages.pandas
     python312Packages.numpy
     nodejs
+    go
 
     firefox
     chromium
