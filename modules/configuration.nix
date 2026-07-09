@@ -68,6 +68,12 @@
     enable = true;
     tunMode.enable = true; 
   };
+
+  services.ollama = {
+    enable = true;
+    acceleration = "rocm"; 
+  };
+
   services.happ.enable = true;
   programs.fish.enable = true;
   programs.firefox.enable = true;
