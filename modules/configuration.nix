@@ -71,7 +71,7 @@
 
   services.ollama = {
     enable = true;
-    acceleration = "rocm"; 
+    package = pkgs.ollama-rocm;
   };
 
   services.happ.enable = true;
