@@ -7,7 +7,7 @@
     # zapret-discord-youtube.url = "github:kartavkun/zapret-discord-youtube";
   };
 
-  outputs = { self, nixpkgs, nixpkgs-stable, zapret-discord-youtube, ... }@inputs: {
+  outputs = { self, nixpkgs, nixpkgs-stable, ... }@inputs: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
