@@ -20,17 +20,17 @@
           };
         }
 
-        zapret-discord-youtube.nixosModules.withTestTools
-        {
-          services.zapret-discord-youtube = {
-            enable = true;
-            configName = "general(ALT)";
-            gameFilter = "all";
-            listGeneral = [ "example.com" "test.org" "mysite.net" ];
-            listExclude = [ "ubisoft.com" "origin.com" ];
-            ipsetAll = [ "192.168.88.0/24" ];
-            ipsetExclude = [ "203.0.113.0/24" ];
-          };
+        #zapret-discord-youtube.nixosModules.withTestTools
+        #{
+        #  services.zapret-discord-youtube = {
+        #    enable = true;
+        #    configName = "general(ALT)";
+        #    gameFilter = "all";
+        #    listGeneral = [ "example.com" "test.org" "mysite.net" ];
+        #    listExclude = [ "ubisoft.com" "origin.com" ];
+        #    ipsetAll = [ "192.168.88.0/24" ];
+        #    ipsetExclude = [ "203.0.113.0/24" ];
+        #  };
         }
       ];
     };
