@@ -113,7 +113,7 @@
     ghostscript # for pdf dpwnscaling
     unzip
     bubblewrap # for codex
-    nspri # for zcode
+    nspr # for zcode
     appimage-run
 
     kubectl
