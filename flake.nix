@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-25.11";
-    zapret-discord-youtube.url = "github:kartavkun/zapret-discord-youtube";
+    # zapret-discord-youtube.url = "github:kartavkun/zapret-discord-youtube";
   };
 
   outputs = { self, nixpkgs, nixpkgs-stable, zapret-discord-youtube, ... }@inputs: {
