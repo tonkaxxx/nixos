@@ -127,6 +127,7 @@
     python312Packages.numpy
     nodejs
     go
+    codex
 
     firefox
     chromium
