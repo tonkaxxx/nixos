@@ -4,10 +4,11 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-25.11";
+    codex-cli.url = "github:sadjow/codex-cli-nix";
     # zapret-discord-youtube.url = "github:kartavkun/zapret-discord-youtube";
   };
 
-  outputs = { self, nixpkgs, nixpkgs-stable, ... }@inputs: {
+  outputs = { self, nixpkgs, nixpkgs-stable, codex-cli, ... }@inputs: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
@@ -18,6 +19,10 @@
             system = "x86_64-linux";
             config.allowUnfree = true;
           };
+
+          environment.systemPackages = [
+            codex-cli.packages."x86_64-linux".default
+          ];
         }
 
         #zapret-discord-youtube.nixosModules.withTestTools
