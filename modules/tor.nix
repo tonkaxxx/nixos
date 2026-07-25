@@ -8,7 +8,7 @@
       UseBridges = true;
       Sandbox = false;
 
-      ClientTransportPlugin = "obfs4 exec ${pkgs.obfs4}/bin/obfs4proxy";
+      ClientTransportPlugin = "obfs4 exec ${pkgs.obfs4}/bin/lyrebird";
 
       Bridge = [
         "obfs4 79.76.106.123:5235 525ABD39D207984F6FB14F3EF056F11E4A9B5903 cert=oI6BdjP2ypE9ss4JojT2qlnNJrp9pgHDknMkQ44jgTZiHbAoRFkCykNlBUlm955ZpY5ebg iat-mode=0"
