@@ -108,6 +108,7 @@
     zapret
     btop
     obfs4
+    nyx
     wineWow64Packages.unstable
     winetricks
     ghostscript # for pdf dpwnscaling
