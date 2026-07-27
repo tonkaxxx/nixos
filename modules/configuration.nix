@@ -129,6 +129,7 @@
     nodejs
     go
     codex
+    opencode
 
     firefox
     chromium
