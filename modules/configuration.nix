@@ -126,6 +126,7 @@
     python312Packages.tkinter
     python312Packages.pandas
     python312Packages.numpy
+    python312Packages.playwright
     nodejs
     go
     codex
