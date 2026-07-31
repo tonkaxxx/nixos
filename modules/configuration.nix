@@ -155,6 +155,7 @@
     mpv
     stable-pkgs.qbittorrent
     tetris
+    localsend
 
     bspwm
     sxhkd
