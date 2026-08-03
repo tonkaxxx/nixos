@@ -155,7 +155,7 @@
     thunar
     mpv
     stable-pkgs.qbittorrent
-    tetris
+    foliate
 
     bspwm
     sxhkd
