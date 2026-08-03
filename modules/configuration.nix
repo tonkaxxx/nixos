@@ -48,6 +48,9 @@
   # включает поддержку запуска сторонних скомпилированных бинарников, скачанных не из nixpkgs
   programs.nix-ld.enable = true;
 
+  # for ebook
+  services.gvfs.enable = true;
+
   # Enable CUPS to print documents.
   services.printing = {
     enable = true;
