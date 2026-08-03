@@ -128,6 +128,7 @@
     python312Packages.numpy
     python312Packages.playwright
     nodejs
+    pnpm
     go
     codex
     opencode
@@ -155,7 +156,6 @@
     mpv
     stable-pkgs.qbittorrent
     tetris
-    localsend
 
     bspwm
     sxhkd
