@@ -158,7 +158,8 @@
     thunar
     mpv
     stable-pkgs.qbittorrent
-    foliate
+    foliate # ebook reader
+    android-file-transfer
 
     bspwm
     sxhkd
