@@ -135,7 +135,6 @@
     pnpm
     go
     codex
-    happy-coder
     opencode
 
     firefox
