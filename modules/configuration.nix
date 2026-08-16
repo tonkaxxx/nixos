@@ -131,6 +131,7 @@
     python312Packages.pandas
     python312Packages.numpy
     python312Packages.playwright
+    python312Packages.cryptography
     nodejs
     pnpm
     go
