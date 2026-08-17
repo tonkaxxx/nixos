@@ -116,6 +116,7 @@
     winetricks
     ghostscript # for pdf dpwnscaling
     unzip
+    unrar
     p7zip
     bubblewrap # for codex
     nspr # for zcode
