@@ -163,6 +163,7 @@
     stable-pkgs.qbittorrent
     foliate # ebook reader
     android-file-transfer
+    sober
 
     bspwm
     sxhkd
