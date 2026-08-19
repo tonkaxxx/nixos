@@ -13,6 +13,7 @@
       ./build-res-limits.nix 
       ./x11.nix
       ./users.nix
+      ./roblox.nix
       ./happ-nixos/happ-module.nix 
     ];
 
@@ -163,7 +164,6 @@
     stable-pkgs.qbittorrent
     foliate # ebook reader
     android-file-transfer
-    sober
 
     bspwm
     sxhkd
