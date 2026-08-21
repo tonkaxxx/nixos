@@ -1,1 +1,2 @@
 modules/hardware-configuration.nix
+modules/grub.nix

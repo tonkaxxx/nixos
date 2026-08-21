@@ -13,7 +13,6 @@
       ./build-res-limits.nix 
       ./x11.nix
       ./users.nix
-      ./roblox.nix
       ./happ-nixos/happ-module.nix 
     ];
 
@@ -22,15 +21,15 @@
   nixpkgs.config.allowUnfree = true; # for proprietary apps
 
   # GRUB
-  boot.loader.efi.canTouchEfiVariables = true;
-  boot.loader.efi.efiSysMountPoint = "/boot/efi";
-  boot.loader.grub = {
-    enable = true;
-    efiSupport = true;
-    efiInstallAsRemovable = false; 
-    device = "nodev";    
-    useOSProber = true;
-  };
+  # boot.loader.efi.canTouchEfiVariables = true;
+  # boot.loader.efi.efiSysMountPoint = "/boot/efi";
+  # boot.loader.grub = {
+  #   enable = true;
+  #   efiSupport = true;
+  #   efiInstallAsRemovable = false; 
+  #   device = "nodev";    
+  #   useOSProber = true;
+  # };
 
   networking.hostName = "nixos"; # Define your hostname.
 
