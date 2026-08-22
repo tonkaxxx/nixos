@@ -21,15 +21,15 @@
   nixpkgs.config.allowUnfree = true; # for proprietary apps
 
   # GRUB
-  # boot.loader.efi.canTouchEfiVariables = true;
-  # boot.loader.efi.efiSysMountPoint = "/boot/efi";
-  # boot.loader.grub = {
-  #   enable = true;
-  #   efiSupport = true;
-  #   efiInstallAsRemovable = false; 
-  #   device = "nodev";    
-  #   useOSProber = true;
-  # };
+  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.efi.efiSysMountPoint = "/boot/efi";
+  boot.loader.grub = {
+    enable = true;
+    efiSupport = true;
+    efiInstallAsRemovable = false; 
+    device = "nodev";    
+    useOSProber = true;
+  };
 
   networking.hostName = "nixos"; # Define your hostname.
 
@@ -163,6 +163,7 @@
     stable-pkgs.qbittorrent
     foliate # ebook reader
     android-file-transfer
+    teamspeak6-client
 
     bspwm
     sxhkd
