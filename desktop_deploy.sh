@@ -5,6 +5,6 @@ cd /home/user/nixos || exit 1
 DATE=$(date +"%d.%m.%y")
 
 git add .
-git commit -m "$DATE"
+git commit -m "$DATE desktop"
 git push origin main
-sudo nixos-rebuild switch --flake /home/user/nixos#nixos
+sudo nixos-rebuild switch --flake /home/user/nixos#desktop

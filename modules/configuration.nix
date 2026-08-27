@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix 
+      # ./hardware-configuration.nix 
       ./garbage-collector.nix 
       ./tor.nix 
       ./build-res-limits.nix 
