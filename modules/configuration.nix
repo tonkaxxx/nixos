@@ -152,7 +152,7 @@
     thunar
     copyq
     rnote
-    discord
+    # discord
     vesktop
     obs-studio
     libreoffice
