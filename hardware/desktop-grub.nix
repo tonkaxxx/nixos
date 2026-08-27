@@ -11,4 +11,8 @@
     device = "nodev";    
     useOSProber = true;
   };  
+  
+  environment.systemPackages = with pkgs; [
+    # discord
+  ];
 }
