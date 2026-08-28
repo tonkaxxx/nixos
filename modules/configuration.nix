@@ -77,6 +77,7 @@
     package = pkgs.ollama-rocm;
   };
 
+  services.tailscale.enable = true;
   services.happ.enable = true;
   programs.fish.enable = true;
   programs.firefox.enable = true;
