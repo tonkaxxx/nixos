@@ -138,6 +138,7 @@
     go
     codex
     opencode
+    brightnessctl 
 
     firefox
     chromium
