@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  networking.hostName = "laptop"; # Define your hostname.
+
   # GRUB
   boot.loader.grub = {
     enable = true;
