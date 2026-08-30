@@ -1,6 +1,14 @@
 { config, pkgs, ... }:
 
 {
+  services.libinput = {
+    enable = true;
+
+    touchpad = {
+      accelSpeed = "-0.99";
+    };
+  };
+
   networking.hostName = "laptop"; # Define your hostname.
 
   # GRUB
