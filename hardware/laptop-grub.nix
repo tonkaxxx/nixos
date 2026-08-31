@@ -5,7 +5,7 @@
     enable = true;
 
     touchpad = {
-      accelSpeed = "-0.99";
+      accelSpeed = "-0.4";
     };
   };
 
