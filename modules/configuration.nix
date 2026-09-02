@@ -205,7 +205,12 @@
     enableSSHSupport = true;
   };
 
-  # List services that you want to enable:
+  # ignore lid closure
+  services.logind.settings.Login = {
+    HandleLidSwitch = "ignore";
+    HandleLidSwitchExternalPower = "ignore";
+    HandleLidSwitchDocked = "ignore";
+  };
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
