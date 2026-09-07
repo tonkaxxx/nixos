@@ -175,6 +175,7 @@
     picom
     xinit
     xrandr
+    arandr
     xrdb
     rofi
     dunst
