@@ -182,6 +182,8 @@
     libnotify
     ipset 
     iptables
+
+    platformio-core
   ];
 
   fonts.packages = with pkgs; [
