@@ -134,6 +134,7 @@
     python312Packages.numpy
     python312Packages.playwright
     python312Packages.cryptography
+    python312Packages.requests
     nodejs
     pnpm
     go
