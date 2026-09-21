@@ -126,7 +126,7 @@
     kubectl
     helm
     docker
-    python3
+    # python3
     nodejs
     pnpm
     go
