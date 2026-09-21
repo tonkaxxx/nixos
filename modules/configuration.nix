@@ -128,13 +128,13 @@
     docker
     python3
     python3Packages.pip
-    python312Packages.flask
-    python312Packages.tkinter
-    python312Packages.pandas
-    python312Packages.numpy
-    python312Packages.playwright
-    python312Packages.cryptography
-    python312Packages.requests
+    python313Packages.flask
+    python313Packages.tkinter
+    python313Packages.pandas
+    python313Packages.numpy
+    python313Packages.playwright
+    python313Packages.cryptography
+    python313Packages.requests
     nodejs
     pnpm
     go
