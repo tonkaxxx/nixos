@@ -127,20 +127,23 @@
     helm
     docker
     python3
-    python3Packages.pip
-    python313Packages.flask
-    python313Packages.tkinter
-    python313Packages.pandas
-    python313Packages.numpy
-    python313Packages.playwright
-    python313Packages.cryptography
-    python313Packages.requests
     nodejs
     pnpm
     go
     codex
     opencode
     brightnessctl 
+
+    (python313.withPackages (ps: with ps; [
+      pip
+      flask
+      tkinter
+      pandas
+      numpy
+      playwright
+      cryptography
+      requests
+    ]))
 
     firefox
     chromium
