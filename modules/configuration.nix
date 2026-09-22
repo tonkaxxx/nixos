@@ -143,6 +143,7 @@
       playwright
       cryptography
       requests
+      mpremote
     ]))
 
     firefox
