@@ -57,6 +57,7 @@
         modules = commonModules ++ [
           ./hardware/laptop-hard.nix
           ./hardware/laptop-grub.nix
+          ./hardware/laptop-batterysave.nix
         ];
       };
     };
