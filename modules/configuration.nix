@@ -122,6 +122,7 @@
     bubblewrap # for codex
     nspr # for zcode
     appimage-run
+    mosquitto # mqtt reader
 
     kubectl
     helm
