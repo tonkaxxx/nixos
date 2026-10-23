@@ -188,6 +188,12 @@
     libnotify
     ipset 
     iptables
+
+    gcc
+    gnumake
+    cmake
+    ffmpeg
+    alsa-utils
   ];
 
   fonts.packages = with pkgs; [
