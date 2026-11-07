@@ -134,6 +134,7 @@
     codex
     opencode
     brightnessctl 
+    nmap
 
     (python313.withPackages (ps: with ps; [
       pip
