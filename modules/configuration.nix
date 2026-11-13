@@ -131,7 +131,7 @@
     nodejs
     pnpm
     go
-    codex
+    # codex
     opencode
     brightnessctl 
     nmap
