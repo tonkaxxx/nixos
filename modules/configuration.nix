@@ -82,7 +82,7 @@
   programs.fish.enable = true;
   programs.firefox.enable = true;
   services.envfs.enable = true; # for /bin/bash
-  programs.steam.enable = false;
+  programs.steam.enable = true;
   programs.dconf.enable = true; # so apps can see dark theme
   virtualisation.docker.enable = true;
   virtualisation.docker.extraOptions = "--dns 77.88.8.8 --dns 1.1.1.1";
