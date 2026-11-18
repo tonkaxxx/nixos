@@ -195,7 +195,8 @@
     cmake
     ffmpeg
     alsa-utils
-    usbutils
+    usbutils #esp32
+    esptool
   ];
 
   fonts.packages = with pkgs; [
